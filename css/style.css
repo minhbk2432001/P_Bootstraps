@@ -1,0 +1,201 @@
+/* Header */
+body{
+    font-family: arial;
+    font-size: 14px;
+    color: #333;
+}
+#header{
+     background: #222;
+}
+#logo, #search, #cart{
+    height: 60px; 
+}
+#search{
+    padding-top: 15px; 
+}
+#search input{
+    font-size: 13px;
+    width: 280px;
+    height: 30px;
+    line-height: 30px;
+    border: none; 
+    border-radius: 3px 0 0 3px;
+}
+#search button{
+    font-size: 14px;
+    color: white;
+    background: #EB1F27;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px; 
+    border: none; 
+    border-radius: 0 3px 3px 0; 
+}
+#cart{
+    padding-top: 15px;
+    text-align: right; 
+}
+#cart a{
+    font-size: 13px;
+    color: #fff;
+    text-transform: capitalize; 
+}
+#cart span{
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background: #EB1F27;
+    border-radius: 100%; 
+}
+/* End Header */
+
+
+
+
+/* Body */
+
+
+/* menu */
+
+#menu ul{
+    padding-left: 0px; 
+    background: #EB1F27;
+    overflow: hidden; 
+}
+#menu .menu-item{
+    float: left; 
+    list-style: none; 
+    border-right: 1px solid #C60A11;
+    height: 40px;
+    line-height: 40px; 
+    padding: 0 12px; 
+}
+#menu a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none; 
+    text-align: center; 
+}
+.menu-item:hover{
+    cursor: pointer;
+    background: #c60a11; 
+}
+/* End Menu */
+
+/* Product */
+.products{
+    margin-top: 15px; 
+}
+.product h3{
+    font-size: 18px;
+}
+.product-item{
+    text-align: center;
+    padding: 5px; 
+}
+.product-item img{
+    width: 125px;
+    height: 160px;
+}
+.product-item h4 a{
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+}
+.product-item p{
+    text-transform: capitalize;
+}
+.product-item p span{
+    color: #eb1f27;
+    font-weight: bold; 
+}
+.product-list{
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin: 0 -5px */
+}
+/* End Product */
+
+/* Sidebar */
+ #sidebar .banner-item{
+    margin-bottom: 10px; 
+ }
+/* End Sidebar */
+
+
+/* End Body */
+
+
+
+/* Footer */
+#body{
+    background: #E7ECF4;
+    padding-bottom: 25px; 
+}
+#footer-t #logo-t,#address,#services,#hotline{
+    padding-top: 25px;
+    padding-bottom: 10px; 
+}
+#footer-t h3{
+    font-size: 18px; 
+    font-family: arial;
+    padding-bottom: 12px;
+    border-bottom: 1.5px solid #333;
+    margin-bottom: 13px; 
+}
+#footer-t p{
+    font-size: 13px;
+    font-family: arial;
+    text-align: justify; 
+}
+
+
+#footer-b{
+    background: #1D1E24;
+    height: 40px; 
+    line-height: 40px; 
+}
+#footer-b p{
+    color: #9CABB6;
+    font-size: 14px;
+}
+/* End Footer */
+
+
+/* fix */
+@media (max-width: 992px){
+    #banner{
+        display: none; 
+    }
+}
+
+@media (max-width: 768px){
+    #cart{
+        text-align: left;
+    }
+    #carouselExampleIndicators{
+        display: none; 
+    }
+    #menu .menu-item{
+        float: none; 
+        border: none; 
+        border-bottom: 1px solid #c60a11; 
+    }
+    #header #logo button{
+        background: #fff ;
+        float: right; 
+        margin-top: 10px; 
+    }
+}
+@media (min-width: 768px){
+    #logo button{
+        display: none; 
+    }
+    #menu {
+        display: block; 
+    }
+}
